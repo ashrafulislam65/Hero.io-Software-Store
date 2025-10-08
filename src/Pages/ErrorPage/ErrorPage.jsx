@@ -1,3 +1,4 @@
+import { Link } from 'react-router';
 import Err from '../../assets/error-404.png';
 import Footer from '../../Components/Footer/Footer';
 import Navbar from '../../Components/Header/Navbar';
@@ -14,7 +15,7 @@ const ErrorPage = () => {
                         <p className="py-6">
                             The page you are looking for is not available.
                         </p>
-                        <button className="btn bg-linear-65 from-[#632ee3] to-[#9f62f2] text-[#ffffff]">Go Back!</button>
+                        <Link to='/'><button className="btn bg-linear-65 from-[#632ee3] to-[#9f62f2] text-[#ffffff]">Go Back!</button></Link>
                     </div>
                 </div>
             </div>
