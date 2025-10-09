@@ -1,7 +1,19 @@
-import Download from '../../assets/icon-downloads.png';
-import Rating from '../../assets/icon-ratings.png';
-import Review from '../../assets/icon-review.png';
+import { useLoaderData } from 'react-router';
+
+import { useEffect, useState } from 'react';
+import { getStoredApps } from '../../Utility/AddToDB';
+import InstalledCard from '../../Components/InstalledCard/InstalledCard';
 const InstalledList = () => {
+    const [installedList, setInstalledList] = useState([]);
+    const data = useLoaderData();
+    console.log(data);
+    useEffect(() => {
+        const installedAppsData = getStoredApps();
+        const installedApps = installedAppsData.map(id=>parseInt(id));
+        const myInstalledApps = data.filter(app => installedApps.includes(app.id));
+        setInstalledList(myInstalledApps);
+    }, [])
+
     return (
         <div>
             <div className=" text-center px-[80px] py-[80px] bg-base-200 min-h-screen">
@@ -16,7 +28,7 @@ const InstalledList = () => {
                 </div>
 
                 <div className=" flex justify-between  py-20">
-                    <h3>1 Apps Found</h3>
+                    <h3><span>{installedList.length}</span> Apps Found</h3>
                     <select className="" id="sort" name="sort">
                         <option value="bd">Sort By Size</option>
                         <option value="in">India</option>
@@ -27,33 +39,9 @@ const InstalledList = () => {
 
 
                 </div>
-                <div className="card py-4 px-4 card-side flex justify-between items-center bg-base-100 shadow-sm">
-                    <div className="  flex  items-center gap-5">
-                        <figure>
-                            <img className="w-[80px] h-[80px] rounded-lg"
-                                src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
-                                alt="Movie" />
-                        </figure>
-                        <div className="">
-                            <h2 className="card-title">New movie is released!</h2>
-                            <div className='flex gap-5 items-center'>
-                                <div className='flex gap-3 items-center'>
-                                    <img className='w-4 h-4' src={Download} alt="" />
-                                    <p>9M</p>
-                                </div>
-                                <div className='flex gap-3 items-center'>
-                                    <img className='w-4 h-4' src={Rating} alt="" />
-                                    <p>5</p>
-                                </div>
-                                <p><span>255</span> MB</p>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div className="">
-                        <button className="btn bg-[#00d390] text-[white]">Uninstall</button>
-                    </div>
-                </div>
+                {
+                    installedList.map(a => <InstalledCard a={a} key={a.id} ></InstalledCard>)
+                }
             </div>
 
         </div>

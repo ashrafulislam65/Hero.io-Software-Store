@@ -33,7 +33,9 @@ export const router = createBrowserRouter([
         },
         {
             path:"installedList",
-            Component:InstalledList, 
+            Component:InstalledList,
+            loader:()=>fetch('All-Apps.json'),
+             
         }
         
     ]
