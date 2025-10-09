@@ -2,7 +2,7 @@ import { createBrowserRouter } from "react-router";
 import Root from "../Pages/Root/Root";
 import ErrorPage from "../Pages/ErrorPage/ErrorPage";
 import Home from "../Pages/Home/Home";
-import TrendingApps from "../Components/TrendingApps/TrendingApps";
+
 
 
 export const router = createBrowserRouter([
@@ -13,6 +13,7 @@ export const router = createBrowserRouter([
     children: [
         {
             index:true,
+            loader:()=>fetch('Top-Apps.json'),
             path:"/",
             Component:Home,
 

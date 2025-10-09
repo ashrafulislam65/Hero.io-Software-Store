@@ -8,7 +8,7 @@
     "size": 45,
     "reviews": 12890,
     "ratingAvg": 4.6,
-    "downloads": 2500000,
+    "downloads": "2.5M",
     "ratings": [
       { "name": "1 star", "count": 320 },
       { "name": "2 star", "count": 600 },
@@ -18,7 +18,7 @@
     ]
   },
   {
-    "image": "https://images.unsplash.com/photo-1598970434795-0c54fe7c0643?w=600",
+    "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600",
     "title": "FitTrack",
     "companyName": "Healthify Pro",
     "id": 2,
@@ -26,7 +26,7 @@
     "size": 72,
     "reviews": 9845,
     "ratingAvg": 4.3,
-    "downloads": 1800000,
+    "downloads": "1.8M",
     "ratings": [
       { "name": "1 star", "count": 400 },
       { "name": "2 star", "count": 800 },
@@ -36,7 +36,7 @@
     ]
   },
   {
-    "image": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=600",
+    "image": "https://images.unsplash.com/photo-1542736667-069246bdbc6d?w=600",
     "title": "PhotoBlend",
     "companyName": "Creative Pixel Studio",
     "id": 3,
@@ -44,7 +44,7 @@
     "size": 96,
     "reviews": 15560,
     "ratingAvg": 4.8,
-    "downloads": 3200000,
+    "downloads": "3.2M",
     "ratings": [
       { "name": "1 star", "count": 210 },
       { "name": "2 star", "count": 400 },
@@ -54,7 +54,7 @@
     ]
   },
   {
-    "image": "https://images.unsplash.com/photo-1554774853-aae0a22c8aa4?w=600",
+    "image": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?w=600",
     "title": "NoteEase",
     "companyName": "Mindsoft",
     "id": 4,
@@ -62,7 +62,7 @@
     "size": 38,
     "reviews": 7400,
     "ratingAvg": 4.4,
-    "downloads": 950000,
+    "downloads": "950K",
     "ratings": [
       { "name": "1 star", "count": 300 },
       { "name": "2 star", "count": 520 },
@@ -72,7 +72,7 @@
     ]
   },
   {
-    "image": "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=600",
+    "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600",
     "title": "ShopSmart",
     "companyName": "EcomWave",
     "id": 5,
@@ -80,7 +80,7 @@
     "size": 81,
     "reviews": 20100,
     "ratingAvg": 4.2,
-    "downloads": 4700000,
+    "downloads": "4.7M",
     "ratings": [
       { "name": "1 star", "count": 850 },
       { "name": "2 star", "count": 1100 },
@@ -90,7 +90,7 @@
     ]
   },
   {
-    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600",
+    "image": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=600",
     "title": "TravelMate",
     "companyName": "ExploreNow Inc.",
     "id": 6,
@@ -98,7 +98,7 @@
     "size": 65,
     "reviews": 16500,
     "ratingAvg": 4.5,
-    "downloads": 3900000,
+    "downloads": "3.9M",
     "ratings": [
       { "name": "1 star", "count": 430 },
       { "name": "2 star", "count": 700 },
@@ -108,7 +108,7 @@
     ]
   },
   {
-    "image": "https://images.unsplash.com/photo-1581090700227-1e37b190418e?w=600",
+    "image": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?w=600",
     "title": "LangBuddy",
     "companyName": "EduGrow",
     "id": 7,
@@ -116,7 +116,7 @@
     "size": 54,
     "reviews": 8800,
     "ratingAvg": 4.7,
-    "downloads": 1200000,
+    "downloads": "1.2M",
     "ratings": [
       { "name": "1 star", "count": 260 },
       { "name": "2 star", "count": 400 },
@@ -126,7 +126,7 @@
     ]
   },
   {
-    "image": "https://images.unsplash.com/photo-1624389429440-fec1c3b49b48?w=600",
+    "image": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=600",
     "title": "BudgetPro",
     "companyName": "FinTechHub",
     "id": 8,
@@ -134,7 +134,7 @@
     "size": 60,
     "reviews": 12100,
     "ratingAvg": 4.1,
-    "downloads": 2100000,
+    "downloads": "2.1M",
     "ratings": [
       { "name": "1 star", "count": 720 },
       { "name": "2 star", "count": 980 },
@@ -144,7 +144,7 @@
     ]
   },
   {
-    "image": "https://images.unsplash.com/photo-1531746790731-6c087fecd65a?w=600",
+    "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=600",
     "title": "GameVerse",
     "companyName": "InfinityPlay",
     "id": 9,
@@ -152,7 +152,7 @@
     "size": 150,
     "reviews": 33000,
     "ratingAvg": 4.6,
-    "downloads": 5000000,
+    "downloads": "5M",
     "ratings": [
       { "name": "1 star", "count": 1100 },
       { "name": "2 star", "count": 1500 },
@@ -162,7 +162,7 @@
     ]
   },
   {
-    "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=600",
+    "image": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=600",
     "title": "TuneStream",
     "companyName": "Harmony Digital",
     "id": 10,
@@ -170,7 +170,7 @@
     "size": 88,
     "reviews": 45800,
     "ratingAvg": 4.5,
-    "downloads": 8000000,
+    "downloads": "8M",
     "ratings": [
       { "name": "1 star", "count": 2200 },
       { "name": "2 star", "count": 3200 },
@@ -180,7 +180,7 @@
     ]
   },
   {
-    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600",
+    "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=600",
     "title": "CodeHub",
     "companyName": "DevNation",
     "id": 11,
@@ -188,7 +188,7 @@
     "size": 77,
     "reviews": 23000,
     "ratingAvg": 4.8,
-    "downloads": 2600000,
+    "downloads": "2.6M",
     "ratings": [
       { "name": "1 star", "count": 600 },
       { "name": "2 star", "count": 900 },
@@ -198,7 +198,7 @@
     ]
   },
   {
-    "image": "https://images.unsplash.com/photo-1581090468340-4e27b48ff24e?w=600",
+    "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600",
     "title": "MindPeace",
     "companyName": "ZenCore",
     "id": 12,
@@ -206,7 +206,7 @@
     "size": 64,
     "reviews": 16500,
     "ratingAvg": 4.9,
-    "downloads": 4100000,
+    "downloads": "4.1M",
     "ratings": [
       { "name": "1 star", "count": 200 },
       { "name": "2 star", "count": 400 },
@@ -216,7 +216,7 @@
     ]
   },
   {
-    "image": "https://images.unsplash.com/photo-1581091870634-1f91a55f24e1?w=600",
+    "image": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=600",
     "title": "EduMaster",
     "companyName": "SkillForge",
     "id": 13,
@@ -224,7 +224,7 @@
     "size": 110,
     "reviews": 30500,
     "ratingAvg": 4.6,
-    "downloads": 4700000,
+    "downloads": "4.7M",
     "ratings": [
       { "name": "1 star", "count": 800 },
       { "name": "2 star", "count": 1200 },
@@ -234,7 +234,7 @@
     ]
   },
   {
-    "image": "https://images.unsplash.com/photo-1587825140708-1c30da9d6e8b?w=600",
+    "image": "https://images.unsplash.com/photo-1558618666-fcd25856cd63?w=600",
     "title": "SafeHome",
     "companyName": "SmartTech IoT",
     "id": 14,
@@ -242,7 +242,7 @@
     "size": 70,
     "reviews": 18300,
     "ratingAvg": 4.4,
-    "downloads": 3200000,
+    "downloads": "3.2M",
     "ratings": [
       { "name": "1 star", "count": 700 },
       { "name": "2 star", "count": 900 },
@@ -252,7 +252,7 @@
     ]
   },
   {
-    "image": "https://images.unsplash.com/photo-1557683304-673a23048d34?w=600",
+    "image": "https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=600",
     "title": "Artify",
     "companyName": "VisionCraft",
     "id": 15,
@@ -260,7 +260,7 @@
     "size": 105,
     "reviews": 21700,
     "ratingAvg": 4.7,
-    "downloads": 3900000,
+    "downloads": "3.9M",
     "ratings": [
       { "name": "1 star", "count": 500 },
       { "name": "2 star", "count": 900 },
@@ -270,7 +270,7 @@
     ]
   },
   {
-    "image": "https://images.unsplash.com/photo-1611162617213-7efc5a1b1f45?w=600",
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=600",
     "title": "FoodieSnap",
     "companyName": "TasteTech",
     "id": 16,
@@ -278,7 +278,7 @@
     "size": 83,
     "reviews": 29400,
     "ratingAvg": 4.3,
-    "downloads": 5600000,
+    "downloads": "5.6M",
     "ratings": [
       { "name": "1 star", "count": 1100 },
       { "name": "2 star", "count": 1500 },
@@ -288,7 +288,7 @@
     ]
   },
   {
-    "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=600",
+    "image": "https://images.unsplash.com/photo-1571974599782-87624638275b?w=600",
     "title": "SoundWave",
     "companyName": "Beatify",
     "id": 17,
@@ -296,7 +296,7 @@
     "size": 120,
     "reviews": 18900,
     "ratingAvg": 4.7,
-    "downloads": 4200000,
+    "downloads": "4.2M",
     "ratings": [
       { "name": "1 star", "count": 500 },
       { "name": "2 star", "count": 900 },
@@ -306,7 +306,7 @@
     ]
   },
   {
-    "image": "https://images.unsplash.com/photo-1590608897129-79da98d159a4?w=600",
+    "image": "https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=600",
     "title": "QuickDoc",
     "companyName": "MediLink",
     "id": 18,
@@ -314,7 +314,7 @@
     "size": 67,
     "reviews": 16500,
     "ratingAvg": 4.8,
-    "downloads": 3700000,
+    "downloads": "3.7M",
     "ratings": [
       { "name": "1 star", "count": 400 },
       { "name": "2 star", "count": 600 },
@@ -324,7 +324,7 @@
     ]
   },
   {
-    "image": "https://images.unsplash.com/photo-1581090700227-1e37b190418e?w=600",
+    "image": "https://images.unsplash.com/photo-1622630998477-20aa696ecb05?w=600",
     "title": "CryptoVault",
     "companyName": "CoinEdge",
     "id": 19,
@@ -332,7 +332,7 @@
     "size": 98,
     "reviews": 21000,
     "ratingAvg": 4.5,
-    "downloads": 4900000,
+    "downloads": "4.9M",
     "ratings": [
       { "name": "1 star", "count": 700 },
       { "name": "2 star", "count": 1200 },
@@ -342,7 +342,7 @@
     ]
   },
   {
-    "image": "https://images.unsplash.com/photo-1621605811897-0eeacfa8ec16?w=600",
+    "image": "https://images.unsplash.com/photo-1611273426858-450d8e3c9fce?w=600",
     "title": "EcoSteps",
     "companyName": "Greenify",
     "id": 20,
@@ -350,7 +350,7 @@
     "size": 55,
     "reviews": 9700,
     "ratingAvg": 4.6,
-    "downloads": 1800000,
+    "downloads": "1.8M",
     "ratings": [
       { "name": "1 star", "count": 200 },
       { "name": "2 star", "count": 400 },
@@ -360,7 +360,7 @@
     ]
   },
   {
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600",
+    "image": "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=600",
     "title": "DriveGo",
     "companyName": "AutoSmart",
     "id": 21,
@@ -368,7 +368,7 @@
     "size": 95,
     "reviews": 25100,
     "ratingAvg": 4.4,
-    "downloads": 5100000,
+    "downloads": "5.1M",
     "ratings": [
       { "name": "1 star", "count": 800 },
       { "name": "2 star", "count": 1200 },
@@ -378,7 +378,7 @@
     ]
   },
   {
-    "image": "https://images.unsplash.com/photo-1607083206173-8ab2d0c9386e?w=600",
+    "image": "https://images.unsplash.com/photo-1489599804159-036feb73e2eb?w=600",
     "title": "StreamBox",
     "companyName": "VisionPlay",
     "id": 22,
@@ -386,7 +386,7 @@
     "size": 130,
     "reviews": 41000,
     "ratingAvg": 4.7,
-    "downloads": 8200000,
+    "downloads": "8.2M",
     "ratings": [
       { "name": "1 star", "count": 1500 },
       { "name": "2 star", "count": 2000 },
@@ -396,7 +396,7 @@
     ]
   },
   {
-    "image": "https://images.unsplash.com/photo-1603791452906-bbe2eab1b1f2?w=600",
+    "image": "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?w=600",
     "title": "ChatConnect",
     "companyName": "Linkify",
     "id": 23,
@@ -404,7 +404,7 @@
     "size": 89,
     "reviews": 48000,
     "ratingAvg": 4.5,
-    "downloads": 9300000,
+    "downloads": "9.3M",
     "ratings": [
       { "name": "1 star", "count": 2100 },
       { "name": "2 star", "count": 2600 },
@@ -414,7 +414,7 @@
     ]
   },
   {
-    "image": "https://images.unsplash.com/photo-1504208434309-cb69f4fe52b0?w=600",
+    "image": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=600",
     "title": "Readify",
     "companyName": "PageTurner",
     "id": 24,
@@ -422,7 +422,7 @@
     "size": 78,
     "reviews": 21200,
     "ratingAvg": 4.6,
-    "downloads": 4100000,
+    "downloads": "4.1M",
     "ratings": [
       { "name": "1 star", "count": 500 },
       { "name": "2 star", "count": 700 },
@@ -432,7 +432,7 @@
     ]
   },
   {
-    "image": "https://images.unsplash.com/photo-1581093588401-36f93e9d6d17?w=600",
+    "image": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=600",
     "title": "JobLink",
     "companyName": "HireNet",
     "id": 25,
@@ -440,7 +440,7 @@
     "size": 91,
     "reviews": 27400,
     "ratingAvg": 4.4,
-    "downloads": 5400000,
+    "downloads": "5.4M",
     "ratings": [
       { "name": "1 star", "count": 800 },
       { "name": "2 star", "count": 1100 },
@@ -450,7 +450,7 @@
     ]
   },
   {
-    "image": "https://images.unsplash.com/photo-1587614382346-4ec70e388b28?w=600",
+    "image": "https://images.unsplash.com/photo-1491841550275-ad7854e35ca6?w=600",
     "title": "StudyPal",
     "companyName": "EduComp",
     "id": 26,
@@ -458,7 +458,7 @@
     "size": 59,
     "reviews": 13400,
     "ratingAvg": 4.7,
-    "downloads": 2100000,
+    "downloads": "2.1M",
     "ratings": [
       { "name": "1 star", "count": 300 },
       { "name": "2 star", "count": 400 },
@@ -468,15 +468,15 @@
     ]
   },
   {
-    "image": "https://images.unsplash.com/photo-1579389083078-4e7018379f7e?w=600",
+    "image": "https://images.unsplash.com/photo-1450778869180-41d0601e046e?w=600",
     "title": "PetCare",
     "companyName": "PawBuddy",
     "id": 27,
-    "description": "PetCare tracks your pet’s health, vet visits, and diet. Get reminders for vaccinations and find nearby pet-friendly locations.",
+    "description": "PetCare tracks your pet's health, vet visits, and diet. Get reminders for vaccinations and find nearby pet-friendly locations.",
     "size": 48,
     "reviews": 9700,
     "ratingAvg": 4.5,
-    "downloads": 1800000,
+    "downloads": "1.8M",
     "ratings": [
       { "name": "1 star", "count": 200 },
       { "name": "2 star", "count": 400 },
@@ -486,7 +486,7 @@
     ]
   },
   {
-    "image": "https://images.unsplash.com/photo-1606761568499-6f9b7c82a42d?w=600",
+    "image": "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=600",
     "title": "Weatherly",
     "companyName": "SkyCast",
     "id": 28,
@@ -494,7 +494,7 @@
     "size": 73,
     "reviews": 15800,
     "ratingAvg": 4.6,
-    "downloads": 3000000,
+    "downloads": "3M",
     "ratings": [
       { "name": "1 star", "count": 500 },
       { "name": "2 star", "count": 600 },
