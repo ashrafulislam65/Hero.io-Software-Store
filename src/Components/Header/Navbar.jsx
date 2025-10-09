@@ -3,6 +3,13 @@ import Logo from '../../assets/logo.png'
 import { FaGithub } from 'react-icons/fa';
 
 const Navbar = () => {
+    const links = <>
+        <div className='flex gap-5'>
+            <Link to='/'><li>Home</li></Link>
+            <Link to='/all-apps'><li>Apps</li></Link>
+            <Link to='/installedList'><li>Installation</li></Link>
+        </div>
+    </>
     return (
         <div className="navbar md:px-[80px] bg-[#ffffff] shadow-sm">
             <div className="navbar-start">
@@ -12,10 +19,8 @@ const Navbar = () => {
                     </div>
                     <ul
                         tabIndex={0}
-                        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                        <li><a>Home</a></li>
-                        <li><a href="">Apps</a></li>
-                        <li><a>Installation</a></li>
+                        className="menu menu-sm flex  dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                        {links}
                     </ul>
                 </div>
                 <Link to='/'>
@@ -27,9 +32,7 @@ const Navbar = () => {
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
-                    <li><a>Home</a></li>
-                    <li><a href="">Apps</a></li>
-                    <li><a>Installation</a></li>
+                    {links}
                 </ul>
             </div>
             <div className="navbar-end">

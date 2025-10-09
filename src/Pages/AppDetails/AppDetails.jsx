@@ -2,12 +2,16 @@ import { useLoaderData, useParams } from 'react-router';
 import Download from '../../assets/icon-downloads.png';
 import Rating from '../../assets/icon-ratings.png';
 import Review from '../../assets/icon-review.png';
+import { addToStoredDB } from '../../Utility/AddToDB';
 
 const AppDetails = () => {
     const { id } = useParams();
     const data = useLoaderData();
     const appDetails = data.find(app => app.id === parseInt(id));
     const { ratings, reviews, size, description, companyName, title, image, downloads, ratingAvg } = appDetails;
+    const handleInstall = id => {
+        addToStoredDB(id);
+    }
     return (
         <div>
             <div className="py-20  bg-base-200 min-h-screen justify-start px-20">
@@ -39,7 +43,7 @@ const AppDetails = () => {
                                 <h4 className='font-extrabold md:text-3xl'>{reviews}</h4>
                             </div>
                         </div>
-                        <button className="btn text-[white] bg-[#00d390]">Install Now ( <span>{size}</span> MB)</button>
+                        <button onClick={()=>handleInstall(id)} className="btn text-[white] bg-[#00d390]">Install Now ( <span>{size}</span> MB)</button>
 
                     </div>
 
