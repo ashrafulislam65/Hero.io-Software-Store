@@ -1,12 +1,12 @@
 [
   {
-    "image": "https://images.unsplash.com/photo-1611605698335-8b1569810432?w=600&auto=format",
+    "image": "https://images.unsplash.com/photo-1611605698335-8b1569810432?w=600",
     "title": "TaskFlow",
     "companyName": "NextGen Labs",
     "id": 1,
-    "description": "TaskFlow is your ultimate productivity companion...",
+    "description": "TaskFlow is your intelligent productivity assistant. It helps you create, organize, and track your daily goals with AI reminders, real-time progress visualization, and cross-device synchronization.",
     "size": 45,
-    "reviews": 12890,
+    "reviews": "12.8K",
     "ratingAvg": 4.6,
     "downloads": "2.5M",
     "ratings": [
@@ -18,13 +18,13 @@
     ]
   },
   {
-    "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&auto=format",
+    "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600",
     "title": "FitTrack",
     "companyName": "Healthify Pro",
     "id": 2,
-    "description": "FitTrack is an all-in-one health and fitness app...",
+    "description": "FitTrack helps you stay on top of your fitness journey. Track workouts, monitor your calorie intake, sleep patterns, and receive personalized health tips with smart wearable integration.",
     "size": 72,
-    "reviews": 9845,
+    "reviews": "9.8K",
     "ratingAvg": 4.3,
     "downloads": "1.8M",
     "ratings": [
@@ -36,13 +36,13 @@
     ]
   },
   {
-    "image": "https://images.unsplash.com/photo-1542736667-069246bdbc6d?w=600&auto=format",
+    "image": "https://images.unsplash.com/photo-1542736667-069246bdbc6d?w=600",
     "title": "PhotoBlend",
     "companyName": "Creative Pixel Studio",
     "id": 3,
-    "description": "PhotoBlend brings powerful photo editing tools...",
+    "description": "PhotoBlend makes creative photo editing simple and powerful. Combine photos, apply AI-powered effects, remove backgrounds, and enhance quality in one click.",
     "size": 96,
-    "reviews": 15560,
+    "reviews": "15.5K",
     "ratingAvg": 4.8,
     "downloads": "3.2M",
     "ratings": [
@@ -54,13 +54,13 @@
     ]
   },
   {
-    "image": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?w=600&auto=format",
+    "image": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?w=600",
     "title": "NoteEase",
     "companyName": "Mindsoft",
     "id": 4,
-    "description": "NoteEase is a light yet powerful note-taking app...",
+    "description": "NoteEase lets you take smart notes that sync across all your devices. Organize notes with tags, color codes, and voice memos.",
     "size": 38,
-    "reviews": 7400,
+    "reviews": "7.4K",
     "ratingAvg": 4.4,
     "downloads": "950K",
     "ratings": [
@@ -72,13 +72,13 @@
     ]
   },
   {
-    "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&auto=format",
+    "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600",
     "title": "ShopSmart",
     "companyName": "EcomWave",
     "id": 5,
-    "description": "ShopSmart is your ultimate shopping assistant...",
+    "description": "ShopSmart compares prices across thousands of online stores and alerts you to deals. Get price drop notifications and smart suggestions.",
     "size": 81,
-    "reviews": 20100,
+    "reviews": "20.1K",
     "ratingAvg": 4.2,
     "downloads": "4.7M",
     "ratings": [
@@ -90,13 +90,13 @@
     ]
   },
   {
-    "image": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=600&auto=format",
+    "image": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=600",
     "title": "TravelMate",
     "companyName": "ExploreNow Inc.",
     "id": 6,
-    "description": "TravelMate is your smart travel planner...",
+    "description": "TravelMate simplifies trip planning by helping you find attractions, book hotels, and create itineraries with offline maps and travel recommendations.",
     "size": 65,
-    "reviews": 16500,
+    "reviews": "16.5K",
     "ratingAvg": 4.5,
     "downloads": "3.9M",
     "ratings": [
@@ -108,13 +108,13 @@
     ]
   },
   {
-    "image": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?w=600&auto=format",
+    "image": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?w=600",
     "title": "LangBuddy",
     "companyName": "EduGrow",
     "id": 7,
-    "description": "LangBuddy makes learning new languages fun...",
+    "description": "LangBuddy helps you learn new languages through interactive lessons, pronunciation games, and speech recognition with 30+ languages supported.",
     "size": 54,
-    "reviews": 8800,
+    "reviews": "8.8K",
     "ratingAvg": 4.7,
     "downloads": "1.2M",
     "ratings": [
@@ -126,13 +126,13 @@
     ]
   },
   {
-    "image": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=600&auto=format",
+    "image": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=600",
     "title": "BudgetPro",
     "companyName": "FinTechHub",
     "id": 8,
-    "description": "BudgetPro is a modern finance management tool...",
+    "description": "BudgetPro helps you manage your personal finances by tracking income, expenses, and investments with AI-driven savings suggestions.",
     "size": 60,
-    "reviews": 12100,
+    "reviews": "12.1K",
     "ratingAvg": 4.1,
     "downloads": "2.1M",
     "ratings": [

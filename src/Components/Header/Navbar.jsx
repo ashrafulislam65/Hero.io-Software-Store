@@ -18,8 +18,12 @@ const Navbar = () => {
                         <li><a>Installation</a></li>
                     </ul>
                 </div>
-                <img className='w-10 h-10' src={Logo} alt="" />
-                <p className=" text-xl font-bold text-[#9f62f2]">Hero.IO</p>
+                <Link to='/'>
+                    <button className='flex justify-center items-center'>
+                        <img className='w-10 h-10' src={Logo} alt="" />
+                        <p className=" text-xl font-bold text-[#9f62f2]">Hero.IO</p>
+                    </button>
+                </Link>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">

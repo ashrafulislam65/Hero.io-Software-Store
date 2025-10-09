@@ -1,19 +1,21 @@
+import { Link } from 'react-router';
 import Download from '../../assets/icon-downloads.png'
 import Rating from '../../assets/icon-ratings.png'
 
 
 
-const TrendingApp = ({app}) => {
-    
-    const { title, image, downloads, ratingAvg} = app;
-   
+const TrendingApp = ({ app }) => {
+
+    const { id,title, image, downloads, ratingAvg } = app;
+
     return (
-        
-             <div className='  '>
+
+        <Link to={`/appDetails/${id}`}>
+            <div className='  '>
                 <div className="card bg-base-100   md:w-76 shadow-sm">
                     <figure className="px-4 pt-4">
                         <img
-                             
+
                             src={image}
                             alt="Shoes"
                             className="rounded-xl w-[300px] h-[350px]" />
@@ -33,8 +35,9 @@ const TrendingApp = ({app}) => {
                         </div>
                     </div>
                 </div>
-            </div> 
-       
+            </div>
+        </Link>
+
     );
 };
 
