@@ -1,0 +1,146 @@
+[
+  {
+    "image": "https://uxwing.com/mobile-application-icon/",
+    "title": "TaskFlow",
+    "companyName": "NextGen Labs",
+    "id": 1,
+    "description": "TaskFlow is your ultimate productivity companion designed to help you stay organized, focused, and efficient every single day. With its intuitive interface, you can easily create to-do lists, set deadlines, and prioritize tasks. TaskFlow includes smart reminders, calendar sync, and progress tracking features that help you achieve your goals without stress. Whether you're managing a work project, studying for exams, or planning personal activities, TaskFlow adapts to your lifestyle. Collaborate with friends or colleagues, assign shared tasks, and track team performance seamlessly in real time. With cloud backup, dark mode support, and offline capabilities, TaskFlow ensures a smooth and secure experience across all your devices.",
+    "size": 45,
+    "reviews": 12890,
+    "ratingAvg": 4.6,
+    "downloads": 2500000,
+    "ratings": [
+      { "name": "1 star", "count": 320 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 4200 },
+      { "name": "5 star", "count": 6570 }
+    ]
+  },
+  {
+    "image": "https://www.flaticon.com/free-icon/apps_814120",
+    "title": "FitTrack",
+    "companyName": "Healthify Pro",
+    "id": 2,
+    "description": "FitTrack is an all-in-one health and fitness app built to keep you active and motivated. It monitors your steps, workouts, sleep, and calorie intake using smart analytics powered by AI. Create custom fitness plans, log meals, and set achievable goals that fit your body and lifestyle. FitTrack connects with wearables and smartwatches to bring all your health data into one place. Enjoy guided workouts, yoga sessions, breathing exercises designed by certified trainers, real-time progress charts, and motivational insights that push you to stay consistent and healthy.",
+    "size": 72,
+    "reviews": 9845,
+    "ratingAvg": 4.3,
+    "downloads": 1800000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 3700 },
+      { "name": "5 star", "count": 3445 }
+    ]
+  },
+  {
+    "image": "https://www.flaticon.com/free-icon/mobile-app_1085828",
+    "title": "PhotoBlend",
+    "companyName": "Creative Pixel Studio",
+    "id": 3,
+    "description": "PhotoBlend brings powerful photo editing tools to your fingertips. Merge multiple images, apply AI filters, adjust lighting, and create beautiful visual effects in seconds. With drag-and-drop simplicity, even beginners can achieve studio-quality results. It includes background removal, portrait enhancement, sky replacement, smart retouching, and hundreds of templates for social media, banners, and thumbnails. Whether you're a content creator or photography lover, PhotoBlend lets your creativity shine with real-time preview and fast performance.",
+    "size": 96,
+    "reviews": 15560,
+    "ratingAvg": 4.8,
+    "downloads": 3200000,
+    "ratings": [
+      { "name": "1 star", "count": 210 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 1000 },
+      { "name": "4 star", "count": 4500 },
+      { "name": "5 star", "count": 9450 }
+    ]
+  },
+  {
+    "image": "https://www.flaticon.com/free-icon/app_5069",
+    "title": "NoteEase",
+    "companyName": "Mindsoft",
+    "id": 4,
+    "description": "NoteEase is a light yet powerful note-taking app to capture thoughts, ideas, and inspirations instantly. Create formatted notes, to-do lists, study summaries using markdown and color-coded tags. Notes sync across devices automatically so you never lose data. Organize notebooks, attach images, add checklists, record voice notes, use offline mode, and back up to the cloud. Ideal for students, professionals, and creatives wanting a clean workspace for thinking and writing.",
+    "size": 38,
+    "reviews": 7400,
+    "ratingAvg": 4.4,
+    "downloads": 950000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 520 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 2880 }
+    ]
+  },
+  {
+    "image": "https://uxwing.com/mobile-application-icon/",
+    "title": "ShopSmart",
+    "companyName": "EcomWave",
+    "id": 5,
+    "description": "ShopSmart is your ultimate shopping assistant. Compare product prices from top e-commerce platforms, get real-time price drop alerts, and read verified reviews before buying. Using AI, ShopSmart suggests better alternatives based on your preferences and past behavior. Create wish lists, track deliveries, apply coupons automatically, and never overpay again. Whether you're shopping for gadgets, clothes, or groceries, ShopSmart makes sure you get the best deal every time.",
+    "size": 81,
+    "reviews": 20100,
+    "ratingAvg": 4.2,
+    "downloads": 4700000,
+    "ratings": [
+      { "name": "1 star", "count": 850 },
+      { "name": "2 star", "count": 1100 },
+      { "name": "3 star", "count": 2600 },
+      { "name": "4 star", "count": 5800 },
+      { "name": "5 star", "count": 9750 }
+    ]
+  },
+  {
+    "image": "https://www.flaticon.com/free-icon/apps_814120",
+    "title": "TravelMate",
+    "companyName": "ExploreNow Inc.",
+    "id": 6,
+    "description": "TravelMate is your smart travel planner helping you explore the world with ease. Discover hidden gems, book hotels, find restaurants, and create custom itineraries in minutes. With offline maps, language translator, and currency converter, you’ll always be prepared. TravelMate also includes traveler reviews, budget estimators, local event suggestions, and 24/7 support to make your trip smooth. Whether it’s a short weekend or long journey, TravelMate ensures a stress-free experience with real-time updates and seamless planning.",
+    "size": 65,
+    "reviews": 16500,
+    "ratingAvg": 4.5,
+    "downloads": 3900000,
+    "ratings": [
+      { "name": "1 star", "count": 430 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 1900 },
+      { "name": "4 star", "count": 5000 },
+      { "name": "5 star", "count": 8470 }
+    ]
+  },
+  {
+    "image": "https://www.flaticon.com/free-icon/mobile-app_1085828",
+    "title": "LangBuddy",
+    "companyName": "EduGrow",
+    "id": 7,
+    "description": "LangBuddy makes learning new languages fun and effective. Master different languages via lessons, quizzes, and pronunciation practice powered by AI. Chat with virtual tutors, test vocabulary daily, and earn badges for motivation. LangBuddy also offers conversation scenarios, cultural tips, and offline learning mode. Supports over 25 languages including Spanish, French, German, Japanese, and Korean — all in one app with engaging UI and progress tracking.",
+    "size": 54,
+    "reviews": 8800,
+    "ratingAvg": 4.7,
+    "downloads": 1200000,
+    "ratings": [
+      { "name": "1 star", "count": 260 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 4340 }
+    ]
+  },
+  {
+    "image": "https://www.flaticon.com/free-icon/app_5069",
+    "title": "BudgetPro",
+    "companyName": "FinTechHub",
+    "id": 8,
+    "description": "BudgetPro is a modern finance management tool helping you get control over your money. Track expenses, categorize spending, set savings goals, and see where your money goes. BudgetPro analyzes transactions to provide insights and alerts when you exceed budgets. Sync with your bank for real-time updates, and with encryption & privacy-first design, your data is safe. Whether saving for a trip or building better habits, BudgetPro gives clarity to your finances.",
+    "size": 60,
+    "reviews": 12100,
+    "ratingAvg": 4.1,
+    "downloads": 2100000,
+    "ratings": [
+      { "name": "1 star", "count": 720 },
+      { "name": "2 star", "count": 980 },
+      { "name": "3 star", "count": 2000 },
+      { "name": "4 star", "count": 3800 },
+      { "name": "5 star", "count": 4600 }
+    ]
+  }
+]

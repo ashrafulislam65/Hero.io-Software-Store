@@ -1,0 +1,506 @@
+[
+  {
+    "image": "https://images.unsplash.com/photo-1611605698335-8b1569810432?w=600",
+    "title": "TaskFlow",
+    "companyName": "NextGen Labs",
+    "id": 1,
+    "description": "TaskFlow is your intelligent productivity assistant. It helps you create, organize, and track your daily goals with AI reminders, real-time progress visualization, and cross-device synchronization.",
+    "size": 45,
+    "reviews": 12890,
+    "ratingAvg": 4.6,
+    "downloads": 2500000,
+    "ratings": [
+      { "name": "1 star", "count": 320 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 4200 },
+      { "name": "5 star", "count": 6570 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1598970434795-0c54fe7c0643?w=600",
+    "title": "FitTrack",
+    "companyName": "Healthify Pro",
+    "id": 2,
+    "description": "FitTrack helps you stay on top of your fitness journey. Track workouts, monitor your calorie intake, sleep patterns, and receive personalized health tips with smart wearable integration.",
+    "size": 72,
+    "reviews": 9845,
+    "ratingAvg": 4.3,
+    "downloads": 1800000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 3700 },
+      { "name": "5 star", "count": 3445 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=600",
+    "title": "PhotoBlend",
+    "companyName": "Creative Pixel Studio",
+    "id": 3,
+    "description": "PhotoBlend makes creative photo editing simple and powerful. Combine photos, apply AI-powered effects, remove backgrounds, and enhance quality in one click.",
+    "size": 96,
+    "reviews": 15560,
+    "ratingAvg": 4.8,
+    "downloads": 3200000,
+    "ratings": [
+      { "name": "1 star", "count": 210 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 1000 },
+      { "name": "4 star", "count": 4500 },
+      { "name": "5 star", "count": 9450 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1554774853-aae0a22c8aa4?w=600",
+    "title": "NoteEase",
+    "companyName": "Mindsoft",
+    "id": 4,
+    "description": "NoteEase lets you take smart notes that sync across all your devices. Organize notes with tags, color codes, and voice memos.",
+    "size": 38,
+    "reviews": 7400,
+    "ratingAvg": 4.4,
+    "downloads": 950000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 520 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 2880 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=600",
+    "title": "ShopSmart",
+    "companyName": "EcomWave",
+    "id": 5,
+    "description": "ShopSmart compares prices across thousands of online stores and alerts you to deals. Get price drop notifications and smart suggestions.",
+    "size": 81,
+    "reviews": 20100,
+    "ratingAvg": 4.2,
+    "downloads": 4700000,
+    "ratings": [
+      { "name": "1 star", "count": 850 },
+      { "name": "2 star", "count": 1100 },
+      { "name": "3 star", "count": 2600 },
+      { "name": "4 star", "count": 5800 },
+      { "name": "5 star", "count": 9750 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600",
+    "title": "TravelMate",
+    "companyName": "ExploreNow Inc.",
+    "id": 6,
+    "description": "TravelMate simplifies trip planning by helping you find attractions, book hotels, and create itineraries with offline maps and travel recommendations.",
+    "size": 65,
+    "reviews": 16500,
+    "ratingAvg": 4.5,
+    "downloads": 3900000,
+    "ratings": [
+      { "name": "1 star", "count": 430 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 1900 },
+      { "name": "4 star", "count": 5000 },
+      { "name": "5 star", "count": 8470 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1581090700227-1e37b190418e?w=600",
+    "title": "LangBuddy",
+    "companyName": "EduGrow",
+    "id": 7,
+    "description": "LangBuddy helps you learn new languages through interactive lessons, pronunciation games, and speech recognition with 30+ languages supported.",
+    "size": 54,
+    "reviews": 8800,
+    "ratingAvg": 4.7,
+    "downloads": 1200000,
+    "ratings": [
+      { "name": "1 star", "count": 260 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 4340 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1624389429440-fec1c3b49b48?w=600",
+    "title": "BudgetPro",
+    "companyName": "FinTechHub",
+    "id": 8,
+    "description": "BudgetPro helps you manage your personal finances by tracking income, expenses, and investments with AI-driven savings suggestions.",
+    "size": 60,
+    "reviews": 12100,
+    "ratingAvg": 4.1,
+    "downloads": 2100000,
+    "ratings": [
+      { "name": "1 star", "count": 720 },
+      { "name": "2 star", "count": 980 },
+      { "name": "3 star", "count": 2000 },
+      { "name": "4 star", "count": 3800 },
+      { "name": "5 star", "count": 4600 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1531746790731-6c087fecd65a?w=600",
+    "title": "GameVerse",
+    "companyName": "InfinityPlay",
+    "id": 9,
+    "description": "GameVerse offers cloud gaming with zero downloads. Play high-quality games instantly on any device with low-latency streaming and real-time chat.",
+    "size": 150,
+    "reviews": 33000,
+    "ratingAvg": 4.6,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 1100 },
+      { "name": "2 star", "count": 1500 },
+      { "name": "3 star", "count": 3000 },
+      { "name": "4 star", "count": 10000 },
+      { "name": "5 star", "count": 17400 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=600",
+    "title": "TuneStream",
+    "companyName": "Harmony Digital",
+    "id": 10,
+    "description": "TuneStream lets you stream millions of songs, podcasts, and live radio with personalized playlists and adaptive audio quality.",
+    "size": 88,
+    "reviews": 45800,
+    "ratingAvg": 4.5,
+    "downloads": 8000000,
+    "ratings": [
+      { "name": "1 star", "count": 2200 },
+      { "name": "2 star", "count": 3200 },
+      { "name": "3 star", "count": 6000 },
+      { "name": "4 star", "count": 12000 },
+      { "name": "5 star", "count": 22400 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600",
+    "title": "CodeHub",
+    "companyName": "DevNation",
+    "id": 11,
+    "description": "CodeHub is a collaborative coding platform for developers to share, learn, and contribute to open-source projects in real-time.",
+    "size": 77,
+    "reviews": 23000,
+    "ratingAvg": 4.8,
+    "downloads": 2600000,
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 2000 },
+      { "name": "4 star", "count": 7000 },
+      { "name": "5 star", "count": 12500 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1581090468340-4e27b48ff24e?w=600",
+    "title": "MindPeace",
+    "companyName": "ZenCore",
+    "id": 12,
+    "description": "MindPeace provides guided meditations, relaxing sounds, and breathing exercises to help users reduce stress and improve sleep quality.",
+    "size": 64,
+    "reviews": 16500,
+    "ratingAvg": 4.9,
+    "downloads": 4100000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 1100 },
+      { "name": "4 star", "count": 4400 },
+      { "name": "5 star", "count": 10300 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1581091870634-1f91a55f24e1?w=600",
+    "title": "EduMaster",
+    "companyName": "SkillForge",
+    "id": 13,
+    "description": "EduMaster brings expert-led online courses and tutorials on coding, business, design, and more with certification options.",
+    "size": 110,
+    "reviews": 30500,
+    "ratingAvg": 4.6,
+    "downloads": 4700000,
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 3400 },
+      { "name": "4 star", "count": 9200 },
+      { "name": "5 star", "count": 15900 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1587825140708-1c30da9d6e8b?w=600",
+    "title": "SafeHome",
+    "companyName": "SmartTech IoT",
+    "id": 14,
+    "description": "SafeHome controls all your smart home devices from one dashboard. Monitor cameras, lights, and locks remotely in real-time.",
+    "size": 70,
+    "reviews": 18300,
+    "ratingAvg": 4.4,
+    "downloads": 3200000,
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 2200 },
+      { "name": "4 star", "count": 6800 },
+      { "name": "5 star", "count": 7700 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1557683304-673a23048d34?w=600",
+    "title": "Artify",
+    "companyName": "VisionCraft",
+    "id": 15,
+    "description": "Artify uses AI to turn your sketches into stunning digital paintings and illustrations in seconds with artistic filters.",
+    "size": 105,
+    "reviews": 21700,
+    "ratingAvg": 4.7,
+    "downloads": 3900000,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 2000 },
+      { "name": "4 star", "count": 8500 },
+      { "name": "5 star", "count": 9800 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1611162617213-7efc5a1b1f45?w=600",
+    "title": "FoodieSnap",
+    "companyName": "TasteTech",
+    "id": 16,
+    "description": "FoodieSnap lets you discover trending dishes, share reviews, and order from your favorite restaurants with image-based search.",
+    "size": 83,
+    "reviews": 29400,
+    "ratingAvg": 4.3,
+    "downloads": 5600000,
+    "ratings": [
+      { "name": "1 star", "count": 1100 },
+      { "name": "2 star", "count": 1500 },
+      { "name": "3 star", "count": 4200 },
+      { "name": "4 star", "count": 9600 },
+      { "name": "5 star", "count": 12600 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=600",
+    "title": "SoundWave",
+    "companyName": "Beatify",
+    "id": 17,
+    "description": "SoundWave is a music creation app that lets users produce beats, mix tracks, and collaborate with artists globally.",
+    "size": 120,
+    "reviews": 18900,
+    "ratingAvg": 4.7,
+    "downloads": 4200000,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 2200 },
+      { "name": "4 star", "count": 7300 },
+      { "name": "5 star", "count": 10000 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1590608897129-79da98d159a4?w=600",
+    "title": "QuickDoc",
+    "companyName": "MediLink",
+    "id": 18,
+    "description": "QuickDoc connects you instantly with certified doctors online for video consultations and medical prescriptions.",
+    "size": 67,
+    "reviews": 16500,
+    "ratingAvg": 4.8,
+    "downloads": 3700000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 1700 },
+      { "name": "4 star", "count": 5900 },
+      { "name": "5 star", "count": 8900 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1581090700227-1e37b190418e?w=600",
+    "title": "CryptoVault",
+    "companyName": "CoinEdge",
+    "id": 19,
+    "description": "CryptoVault is a secure digital wallet for managing and trading cryptocurrencies with multi-layer encryption and live market analysis.",
+    "size": 98,
+    "reviews": 21000,
+    "ratingAvg": 4.5,
+    "downloads": 4900000,
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 2600 },
+      { "name": "4 star", "count": 9200 },
+      { "name": "5 star", "count": 9300 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1621605811897-0eeacfa8ec16?w=600",
+    "title": "EcoSteps",
+    "companyName": "Greenify",
+    "id": 20,
+    "description": "EcoSteps tracks your carbon footprint and suggests eco-friendly habits. Join challenges and compete to make the planet greener.",
+    "size": 55,
+    "reviews": 9700,
+    "ratingAvg": 4.6,
+    "downloads": 1800000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 3500 },
+      { "name": "5 star", "count": 4400 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600",
+    "title": "DriveGo",
+    "companyName": "AutoSmart",
+    "id": 21,
+    "description": "DriveGo helps you find the fastest routes, monitor fuel efficiency, and get real-time traffic updates powered by AI navigation.",
+    "size": 95,
+    "reviews": 25100,
+    "ratingAvg": 4.4,
+    "downloads": 5100000,
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 2800 },
+      { "name": "4 star", "count": 8600 },
+      { "name": "5 star", "count": 8700 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1607083206173-8ab2d0c9386e?w=600",
+    "title": "StreamBox",
+    "companyName": "VisionPlay",
+    "id": 22,
+    "description": "StreamBox lets you watch your favorite movies and shows in 4K without buffering, with personalized recommendations and offline mode.",
+    "size": 130,
+    "reviews": 41000,
+    "ratingAvg": 4.7,
+    "downloads": 8200000,
+    "ratings": [
+      { "name": "1 star", "count": 1500 },
+      { "name": "2 star", "count": 2000 },
+      { "name": "3 star", "count": 4600 },
+      { "name": "4 star", "count": 14000 },
+      { "name": "5 star", "count": 18900 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1603791452906-bbe2eab1b1f2?w=600",
+    "title": "ChatConnect",
+    "companyName": "Linkify",
+    "id": 23,
+    "description": "ChatConnect brings secure and fast messaging with HD calls, group chats, and end-to-end encryption.",
+    "size": 89,
+    "reviews": 48000,
+    "ratingAvg": 4.5,
+    "downloads": 9300000,
+    "ratings": [
+      { "name": "1 star", "count": 2100 },
+      { "name": "2 star", "count": 2600 },
+      { "name": "3 star", "count": 4800 },
+      { "name": "4 star", "count": 15000 },
+      { "name": "5 star", "count": 23500 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1504208434309-cb69f4fe52b0?w=600",
+    "title": "Readify",
+    "companyName": "PageTurner",
+    "id": 24,
+    "description": "Readify offers thousands of eBooks, audiobooks, and personalized recommendations with cloud sync and offline reading.",
+    "size": 78,
+    "reviews": 21200,
+    "ratingAvg": 4.6,
+    "downloads": 4100000,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 2100 },
+      { "name": "4 star", "count": 8200 },
+      { "name": "5 star", "count": 9700 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1581093588401-36f93e9d6d17?w=600",
+    "title": "JobLink",
+    "companyName": "HireNet",
+    "id": 25,
+    "description": "JobLink connects job seekers and employers through AI-based matching, real-time applications, and interview scheduling.",
+    "size": 91,
+    "reviews": 27400,
+    "ratingAvg": 4.4,
+    "downloads": 5400000,
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 1100 },
+      { "name": "3 star", "count": 2600 },
+      { "name": "4 star", "count": 8700 },
+      { "name": "5 star", "count": 10200 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1587614382346-4ec70e388b28?w=600",
+    "title": "StudyPal",
+    "companyName": "EduComp",
+    "id": 26,
+    "description": "StudyPal helps students plan their studies, take quizzes, and track performance with flashcards and progress charts.",
+    "size": 59,
+    "reviews": 13400,
+    "ratingAvg": 4.7,
+    "downloads": 2100000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 4200 },
+      { "name": "5 star", "count": 7600 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1579389083078-4e7018379f7e?w=600",
+    "title": "PetCare",
+    "companyName": "PawBuddy",
+    "id": 27,
+    "description": "PetCare tracks your pet’s health, vet visits, and diet. Get reminders for vaccinations and find nearby pet-friendly locations.",
+    "size": 48,
+    "reviews": 9700,
+    "ratingAvg": 4.5,
+    "downloads": 1800000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 3800 },
+      { "name": "5 star", "count": 4100 }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1606761568499-6f9b7c82a42d?w=600",
+    "title": "Weatherly",
+    "companyName": "SkyCast",
+    "id": 28,
+    "description": "Weatherly provides real-time weather updates, storm alerts, and detailed forecasts with dynamic radar visualizations.",
+    "size": 73,
+    "reviews": 15800,
+    "ratingAvg": 4.6,
+    "downloads": 3000000,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 1800 },
+      { "name": "4 star", "count": 5400 },
+      { "name": "5 star", "count": 7500 }
+    ]
+  }
+]
