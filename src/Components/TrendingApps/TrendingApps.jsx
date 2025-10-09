@@ -20,7 +20,9 @@ const TrendingApps = ({data}) => {
                </div>
             </Suspense>
 
-            <Link><button>Show All</button></Link>
+            <div className="flex justify-center pt-10">
+                <Link to="all-apps"><button className="btn bg-linear-65 from-[#632ee3] to-[#9f62f2] text-[#ffffff]">Show All</button></Link>
+            </div>
         </div>
     );
 };
