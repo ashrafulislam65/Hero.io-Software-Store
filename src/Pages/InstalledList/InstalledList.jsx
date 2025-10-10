@@ -1,4 +1,5 @@
-import { useLoaderData } from 'react-router';
+import { useLoaderData, useNavigation } from 'react-router';
+import Logo from '../../assets/logo.png';
 
 
 import { useEffect, useState } from 'react';
@@ -8,17 +9,34 @@ import InstalledCard from '../../Components/InstalledCard/InstalledCard';
 const InstalledList = () => {
     const [installedList, setInstalledList] = useState([]);
     const [sortBy, setSortBy] = useState("");
+    const [showSpinner, setShowSpinner] = useState(true);
+    const navigation = useNavigation();
     
     
     const data = useLoaderData();
+    const isLoading = navigation.state === 'loading';
     console.log(data);
     useEffect(() => {
+         const timer = setTimeout(() => {
+            setShowSpinner(false);
+        }, 3000); 
         const installedAppsData = getStoredApps();
         console.log('Stored Apps from localStorage:', installedAppsData);
         const installedApps = installedAppsData.map(id => parseInt(id));
         const myInstalledApps = data.filter(app => installedApps.includes(app.id));
         setInstalledList(myInstalledApps);
+         return () => clearTimeout(timer);
     }, [data]);
+     useEffect(() => {
+        if (isLoading) {
+            setShowSpinner(true);
+            const timer = setTimeout(() => {
+                setShowSpinner(false);
+            }, 3000);
+            
+            return () => clearTimeout(timer);
+        }
+    }, [isLoading]);
      
     const handleUninstall = (uninstalledId) => {
         
@@ -39,6 +57,16 @@ const InstalledList = () => {
             const sortedList = [...installedList].sort((a, b) => a.downloads - b.downloads);
             setInstalledList(sortedList);
         }
+    }
+     if (showSpinner) {
+        return (
+            <div className="min-h-screen bg-base-200 flex items-center justify-center">
+                <div className="text-center">
+                    <p className=" flex font-bold text-5xl text-gray-400"><span>L</span><img className="w-10 h-10" src={Logo} alt="" /><span>OADING</span> <span className="loading loading-bars loading-lg"></span></p>
+                    <p className="text-gray-400 text-sm mt-2">Please wait for 3 seconds</p>
+                </div>
+            </div>
+        );
     }
 
     return (
