@@ -16,7 +16,7 @@ const Banner = () => {
                            <Link target='_blank' to="https://www.apple.com/app-store/"> <button className="btn btn-[#d2d2d2]"><img className='w-8 h-8' src={appStore} alt="" />App Store</button></Link>
                         </div>
                         <img className='mt-10 ' src={Hero} alt="" />
-                </div>
+                    </div>
             </div>
         </div>
        <div className='md:py-[80px] bg-linear-65 from-[#632ee3] to-[#9f62f2] text-[white]'>

@@ -5,6 +5,7 @@ import Home from "../Pages/Home/Home";
 import AllApps from "../Pages/AllApps/AllApps";
 import AppDetails from "../Pages/AppDetails/AppDetails";
 import InstalledList from "../Pages/InstalledList/InstalledList";
+import AppNotFound from "../Components/AppNotFound/AppNotFound";
 
 
 
@@ -36,7 +37,12 @@ export const router = createBrowserRouter([
             Component:InstalledList,
             loader:()=>fetch('All-Apps.json'),
              
+        },
+        {
+            path:"not-foundApp",
+            Component:AppNotFound,
         }
+
         
     ]
   },
