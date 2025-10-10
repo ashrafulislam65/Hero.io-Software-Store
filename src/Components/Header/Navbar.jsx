@@ -1,13 +1,22 @@
-import { Link } from 'react-router';
+import { Link, NavLink } from 'react-router';
 import Logo from '../../assets/logo.png'
 import { FaGithub } from 'react-icons/fa';
 
 const Navbar = () => {
+    const navLinkStyle = ({ isActive }) => {
+        return {
+            color: isActive ? '#9f62f2' : '#000000',
+            borderBottom: isActive ? '2px solid #9f62f2' : 'none',
+            fontWeight: isActive ? 'bold' : 'normal',
+            paddingBottom: '4px'
+        }
+    }
     const links = <>
+       
         <div className='flex gap-5'>
-            <Link to='/'><li>Home</li></Link>
-            <Link to='/all-apps'><li>Apps</li></Link>
-            <Link to='/installedList'><li>Installation</li></Link>
+            <NavLink to='/' style={navLinkStyle}><li>Home</li></NavLink>
+            <NavLink to='/all-apps' style={navLinkStyle}><li>Apps</li></NavLink>
+            <NavLink to='/installedList' style={navLinkStyle}><li>Installation</li></NavLink>
         </div>
     </>
     return (

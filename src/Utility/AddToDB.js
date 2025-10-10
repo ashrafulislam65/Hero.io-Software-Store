@@ -10,11 +10,12 @@ const getStoredApps = () => {
 }
 const addToStoredDB = (id) => {
     const storeAppsData = getStoredApps();
-    if (storeAppsData.includes(id)) {
+     const numericId = parseInt(id);
+    if (storeAppsData.includes(numericId)) {
          alert('App already installed');
     }
     else{
-        storeAppsData.push(id);
+        storeAppsData.push(numericId);
         localStorage.setItem('installedAppsList', JSON.stringify(storeAppsData));
         alert('App installed successfully!');
     }

@@ -2,15 +2,30 @@ import { useLoaderData, useParams } from 'react-router';
 import Download from '../../assets/icon-downloads.png';
 import Rating from '../../assets/icon-ratings.png';
 import Review from '../../assets/icon-review.png';
-import { addToStoredDB } from '../../Utility/AddToDB';
+import { addToStoredDB, getStoredApps } from '../../Utility/AddToDB';
+import { useEffect, useState } from 'react';
 
 const AppDetails = () => {
+    
     const { id } = useParams();
     const data = useLoaderData();
     const appDetails = data.find(app => app.id === parseInt(id));
     const { ratings, reviews, size, description, companyName, title, image, downloads, ratingAvg } = appDetails;
-    const handleInstall = id => {
+     const [isInstalled, setIsInstalled] = useState(false);
+     
+    useEffect(() => {
+        const checkIfInstalled = () => {
+            const storedApps = getStoredApps();
+            const installed = storedApps.includes(parseInt(id));
+            setIsInstalled(installed);
+        };
+        
+        checkIfInstalled();
+    }, [id]);
+    const handleInstall = (id) => {
+         
         addToStoredDB(id);
+        setIsInstalled(true);
     }
     return (
         <div>
@@ -43,7 +58,9 @@ const AppDetails = () => {
                                 <h4 className='font-extrabold md:text-3xl'>{reviews}</h4>
                             </div>
                         </div>
-                        <button onClick={()=>handleInstall(id)} className="btn text-[white] bg-[#00d390]">Install Now ( <span>{size}</span> MB)</button>
+                        <button onClick={()=>handleInstall(id)}
+                         disabled={isInstalled} 
+                        className={`btn text-[white] ${isInstalled ? 'bg-gray-400' : 'bg-[#00d390]'}`}>{isInstalled ? 'Installed' : `Install Now (${size} MB)`}</button>
 
                     </div>
 
