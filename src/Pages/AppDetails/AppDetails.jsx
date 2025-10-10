@@ -4,33 +4,35 @@ import Rating from '../../assets/icon-ratings.png';
 import Review from '../../assets/icon-review.png';
 import { addToStoredDB, getStoredApps } from '../../Utility/AddToDB';
 import { useEffect, useState } from 'react';
+import { Bar, BarChart, CartesianGrid, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
 
 const AppDetails = () => {
-    
+
     const { id } = useParams();
     const data = useLoaderData();
+    
     const appDetails = data.find(app => app.id === parseInt(id));
     const { ratings, reviews, size, description, companyName, title, image, downloads, ratingAvg } = appDetails;
-     const [isInstalled, setIsInstalled] = useState(false);
-     
+    const [isInstalled, setIsInstalled] = useState(false);
+
     useEffect(() => {
         const checkIfInstalled = () => {
             const storedApps = getStoredApps();
             const installed = storedApps.includes(parseInt(id));
             setIsInstalled(installed);
         };
-        
+
         checkIfInstalled();
     }, [id]);
     const handleInstall = (id) => {
-         
+
         addToStoredDB(id);
         setIsInstalled(true);
     }
     return (
         <div>
             <div className="py-20  bg-base-200 min-h-screen justify-start px-20">
-                <div className="md:flex gap-10 ">
+                <div className="lg:flex gap-10 ">
                     <img
                         src={image}
                         className="md:max-w-sm rounded-lg shadow-2xl"
@@ -58,20 +60,44 @@ const AppDetails = () => {
                                 <h4 className='font-extrabold md:text-3xl'>{reviews}</h4>
                             </div>
                         </div>
-                        <button onClick={()=>handleInstall(id)}
-                         disabled={isInstalled} 
-                        className={`btn text-[white] ${isInstalled ? 'bg-gray-400' : 'bg-[#00d390]'}`}>{isInstalled ? 'Installed' : `Install Now (${size} MB)`}</button>
+                        <button onClick={() => handleInstall(id)}
+                            disabled={isInstalled}
+                            className={`btn text-[white] ${isInstalled ? 'bg-gray-400' : 'bg-[#00d390]'}`}>{isInstalled ? 'Installed' : `Install Now (${size} MB)`}</button>
 
                     </div>
 
+                </div>
+                <div className='divider'></div>
+                <div className='mt-8'>
+                    <h3 className='font-bold text-xl mb-4'>Ratings Distribution</h3>
+                    <div className="h-80">
+                        <ResponsiveContainer width="100%" height="100%">
+                            <BarChart
+                                data={appDetails.ratings}
+                                layout="vertical"
+                                margin={{ top: 5, right: 30, left: 20, bottom: 5 }}
+                            >
+                                <CartesianGrid strokeDasharray="3 3" />
+                                <XAxis type="number" />
+                                <YAxis
+                                    type="category"
+                                    dataKey="name"
+                                    width={80}
+                                    tick={{ fontSize: 14 }}
+                                />
+                                <Tooltip />
+                                <Bar dataKey="count" fill="#ff8811" name="Number of Ratings" />
+                            </BarChart>
+                        </ResponsiveContainer>
+                    </div>
                 </div>
                 <div className='divider'></div>
                 <div>
                     <h3 className='font-bold'>Description</h3>
                     <p>{description}</p>
                 </div>
-                
-                
+
+
             </div>
         </div>
     );
