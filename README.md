@@ -1,22 +1,17 @@
-# 🦸‍♂️ Assignment 008 — Hero IO
 
-### 📅 Deadline For 60 marks: 09 October , 2025 (11:59 pm ⏱️)
-
-### 📅 Deadline For 50 marks : 10 October , 2025 (11:59 pm⏱️)
-
-### 📅 Deadline For 30 marks: Any time after 10 October , 2025.
 
 ---
-## Private Repo-Link : please create your own public repository for this assignment.
+## Welcome to Hero.IO Website 
+-It a like of app store website .where you can get apps and easily install.
 ---
 
 # 🐣 Basic Requirements
 
-- Make the Application Responsive for All the Devices
-- Do minimum 5 commits to your github Repository
-- Give a meaning full name to your application
-- Make Sure on Production Application is error Free
-- Add a Readme.md with App Name , Description & Technologies
+- Responsive for All the Devices 
+- More than 5 commits of  github Repository added
+- A meaning full name to your application
+- Production Application is error Free
+-  A Readme.md with App Name , Description & Technologies added
 
 ---
 
@@ -192,3 +187,13 @@
 - Reloading from any route must work correctly without showing a 404 error.
 
 ---
+
+## GitHub And Live Links
+
+-Github :https://github.com/ashrafulislam65/Hero.io-Software-Store
+-Live Link:fascinating-empanada-bf7d39.netlify.app
+
+## Technologies
+1.Tailwind Css
+2.Daisy UI
+3.React And React Router
