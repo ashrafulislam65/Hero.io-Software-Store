@@ -1,19 +1,34 @@
 import { useLoaderData } from 'react-router';
 
+
 import { useEffect, useState } from 'react';
 import { getStoredApps } from '../../Utility/AddToDB';
 import InstalledCard from '../../Components/InstalledCard/InstalledCard';
+
 const InstalledList = () => {
     const [installedList, setInstalledList] = useState([]);
     const [sortBy, setSortBy] = useState("");
+    
+    
     const data = useLoaderData();
     console.log(data);
     useEffect(() => {
         const installedAppsData = getStoredApps();
+        console.log('Stored Apps from localStorage:', installedAppsData);
         const installedApps = installedAppsData.map(id => parseInt(id));
         const myInstalledApps = data.filter(app => installedApps.includes(app.id));
         setInstalledList(myInstalledApps);
-    }, [])
+    }, [data]);
+     
+    const handleUninstall = (uninstalledId) => {
+        
+        setInstalledList(prevApps => 
+            prevApps.filter(app => app.id !== uninstalledId)
+        );
+        
+    }
+    
+    
     const handleSort = (type) => {
         setSortBy(type);
         if (type === "High-Low") {
@@ -53,7 +68,7 @@ const InstalledList = () => {
 
                 </div>
                 {
-                    installedList.map(a => <InstalledCard a={a} key={a.id} ></InstalledCard>)
+                    installedList.map(a => <InstalledCard onUninstall={handleUninstall} a={a} key={a.id} ></InstalledCard>)
                 }
             </div>
 

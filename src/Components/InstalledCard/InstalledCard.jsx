@@ -1,8 +1,15 @@
 
 import Download from '../../assets/icon-downloads.png';
 import Rating from '../../assets/icon-ratings.png';
-const InstalledCard = ({a}) => {
-    const { image, title, downloads, ratingAvg, size } = a;
+import { removeFromStoredDB } from '../../Utility/AddToDB';
+const InstalledCard = ({a,onUninstall}) => {
+    const { id,image, title, downloads, ratingAvg, size } = a;
+     const handleUninstall = () => {
+       
+        removeFromStoredDB(id);
+        
+        onUninstall(id);
+    }
     
     return (
         <div className=''>
@@ -30,7 +37,7 @@ const InstalledCard = ({a}) => {
                     </div>
                 </div>
                 <div className="">
-                    <button className="btn bg-[#00d390] text-[white]">Uninstall</button>
+                    <button onClick={handleUninstall} className="btn bg-[#00d390] text-[white]">Uninstall</button>
                 </div>
             </div>
         </div>
