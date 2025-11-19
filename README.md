@@ -191,7 +191,7 @@
 ## GitHub And Live Links
 
 -Github :https://github.com/ashrafulislam65/Hero.io-Software-Store
--Live Link:fascinating-empanada-bf7d39.netlify.app
+-Live Link:https://fascinating-empanada-bf7d39.netlify.app/
 
 ## Technologies
 1.Tailwind Css
